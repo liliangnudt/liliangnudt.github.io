@@ -144,12 +144,3 @@ td > ul {
   padding-left: 1.25em;
 }
 
-/* Keep section headings close to their corresponding lists. */
-td:has(> heading) {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-td:has(> ul) {
-  padding-top: 0 !important;
-}
