@@ -129,3 +129,10 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+/* Keep all top-level homepage sections aligned to the same content column. */
+body > table {
+  width: 100% !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
