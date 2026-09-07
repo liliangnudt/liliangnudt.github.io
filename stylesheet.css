@@ -136,3 +136,10 @@ body > table {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* Align section lists with their headings while retaining bullet markers. */
+td > ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.25em;
+}
